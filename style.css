@@ -1,0 +1,72 @@
+/* تصميم مختصر للمتجر */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background: #0a0a1a;
+    color: white;
+    direction: rtl;
+}
+
+.ai-control-panel {
+    background: rgba(255,255,255,0.1);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.smart-nav {
+    background: rgba(10,10,26,0.9);
+    padding: 15px;
+    border-bottom: 1px solid #00f3ff;
+}
+
+.hologram-text {
+    color: #00f3ff;
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px;
+}
+
+.hero-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 30px;
+}
+
+.feature {
+    background: rgba(0,243,255,0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.feature-icon {
+    font-size: 2rem;
+    color: #9d00ff;
+    margin-bottom: 10px;
+}
+
+.payment-process-btn {
+    background: linear-gradient(45deg, #00f3ff, #9d00ff);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.future-footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.5);
+    margin-top: 50px;
+}
